@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_siswa"
+        android:icon="@drawable/ic_person_24"
+        android:title="@string/title_siswa" />
+
+    <item
+        android:id="@+id/navigation_orangtua"
+        android:icon="@drawable/ic_person_24"
+        android:title="@string/title_orangtua" />
+
+    <item
+        android:id="@+id/navigation_sekolah"
+        android:icon="@drawable/ic_school_24"
+        android:title="@string/title_sekolah" />
+
+</menu>

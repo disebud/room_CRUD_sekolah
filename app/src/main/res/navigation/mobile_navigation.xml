@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/siswaActivity">
+
+    <fragment
+        android:id="@+id/navigation_orangtua"
+        android:name="com.stmikbanisaleh.room_crud_sekolah.ui.orangtua.OrangtuaFragment"
+        android:label="@string/title_orangtua"
+        tools:layout="@layout/fragment_orangtua" />
+
+    <fragment
+        android:id="@+id/navigation_sekolah"
+        android:name="com.stmikbanisaleh.room_crud_sekolah.ui.sekolah.SekolahFragment"
+        android:label="@string/title_sekolah"
+        tools:layout="@layout/fragment_sekolah" />
+    <activity
+        android:id="@+id/siswaActivity"
+        android:name="com.stmikbanisaleh.room_crud_sekolah.ui.siswa.SiswaActivity"
+        android:label="activity_siswa"
+        tools:layout="@layout/activity_siswa" />
+</navigation>
